@@ -1,0 +1,74 @@
+﻿<UserControl x:Class="TripTester.TripDetail"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:TripTester"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" BorderBrush="#FF888888" Background="AliceBlue" BorderThickness="3" Height="665" Width="1000">
+    <UserControl.Resources>
+        <!--<local:ResultConverter x:Key="rConvert"></local:ResultConverter>-->
+        <ResourceDictionary Source="DictionaryCommon.xaml"></ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <local:ImageButton Margin="1" HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="btn_back" Width="48" Height="48" ImgPath="/Images/back.png" Template="{StaticResource ImageButtonTemplate}" Click="button_Close_Click" />
+            <local:ImageButton Margin="1" HorizontalAlignment="Right" VerticalAlignment="Top" x:Name="btn_print" Width="48" Height="48" ImgPath="/Images/print.png" Template="{StaticResource ImageButtonTemplate}" Click="btn_print_Click_1" />
+        </Grid>
+        <Grid Name="gridContent" Grid.RowSpan="2">
+            <Border Width="450" Height="50" VerticalAlignment="Top" BorderBrush="Gray" BorderThickness="0,0,0,3"/>
+            <StackPanel Height="50" VerticalAlignment="Top" Width="450" Orientation="Horizontal">
+                <Label FontSize="24" VerticalContentAlignment="Center" Width="40">ID:</Label>
+                <Label FontSize="24" VerticalAlignment="Center" Width="140">
+                    <Label.Content>
+                        <Binding Path="ProductNumber"></Binding>
+                    </Label.Content>
+                </Label>
+                <Label FontSize="24" VerticalContentAlignment="Center" Width="40">In:</Label>
+                <Label FontSize="24" VerticalAlignment="Center" Width="70">
+                    <Label.Content>
+                        <Binding Path="In"></Binding>
+                    </Label.Content>
+                </Label>
+                <Label FontSize="24" VerticalContentAlignment="Center" Width="50">A</Label>
+                <Label FontSize="24" VerticalContentAlignment="Center" Width="70">Pole:</Label>
+                <Label FontSize="24" VerticalAlignment="Center" Width="40" Content="{Binding BreakType,Converter={StaticResource pConvert}}"/>
+            </StackPanel>
+            <DataGrid AutoGenerateColumns="False" x:Name="dataGridDisplay" Background="Transparent" IsReadOnly="True"
+                   BorderBrush="Transparent" CanUserAddRows="True" ItemsSource="{Binding}" SelectionUnit="FullRow" Margin="3,50,3,0" Grid.Row="1">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="No." Binding="{Binding RelativeSource={RelativeSource AncestorType=DataGridRow}, Converter={local:RowToIndexConverter}}" />
+                    <DataGridTextColumn Width="2.65*" Header="Time" Binding="{Binding Time, Converter={StaticResource tConvert}, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridTextColumn Header="Phase" Binding="{Binding Phase, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridTextColumn  Width="1.2*" Header="Type" Binding="{Binding Type, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridTextColumn  Width="1.2*" Header="Iset(A)" Binding="{Binding Iset, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridTextColumn  Width="1.2*" Header="Tset(s)" Binding="{Binding Tset, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridTextColumn  Width="1*" Header="I(A)" Binding="{Binding I, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridTextColumn  Width="0.8*" Header="T(s)" Binding="{Binding T, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridTextColumn  Width="1*" Header="Ia(A)" Binding="{Binding Ia, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridTextColumn  Width="1*" Header="Ib(A)" Binding="{Binding Ib, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridTextColumn  Width="1*" Header="Ic(A)" Binding="{Binding Ic, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridTextColumn  Width="1*"  Header="In(A)" Binding="{Binding In, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
+                </DataGrid.Columns>
+                <DataGrid.RowStyle>
+                    <Style TargetType="{x:Type DataGridRow}">
+                        <Setter Property="Background" Value="Transparent" />
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding Results, Mode=OneWay}" Value="78">
+                                <Setter Property="Background" Value="#FF5656"/>
+                            </DataTrigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <!--当鼠标经过时 改变颜色-->
+                                <Setter Property="Background" Value="#2A7187"/>
+                                <Setter Property="Foreground" Value="White"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </DataGrid.RowStyle>
+            </DataGrid>
+        </Grid>
+    </Grid>
+</UserControl>

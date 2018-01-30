@@ -1,0 +1,166 @@
+C:\Documents and Settings\user\桌面\DrawDemo曲线带\DynastyDemo\DynastyDemo\MLang\bin\Debug\MLang.dll
+C:\Documents and Settings\user\桌面\DrawDemo曲线带\DynastyDemo\DynastyDemo\MLang\bin\Debug\MLang.pdb
+C:\Documents and Settings\user\桌面\DrawDemo曲线带\DynastyDemo\DynastyDemo\MLang\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\user\桌面\DrawDemo曲线带\DynastyDemo\DynastyDemo\MLang\obj\Debug\MLang.dll
+C:\Documents and Settings\user\桌面\DrawDemo曲线带\DynastyDemo\DynastyDemo\MLang\obj\Debug\MLang.pdb
+C:\Documents and Settings\user\桌面\DrawDemo曲线带\DynastyDemo\DynastyDemo\MLang\obj\Debug\MLang.LangResource.resources
+C:\Documents and Settings\user\桌面\DrawDemo曲线带\DynastyDemo\DynastyDemo\MLang\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\user\桌面\DrawDemo曲线带\DynastyDemo\DynastyDemo\MLang\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\user\桌面\DrawDemo曲线带\DynastyDemo\DynastyDemo\MLang\bin\Debug\zh-CN\MLang.resources.dll
+C:\Documents and Settings\user\桌面\DrawDemo曲线带\DynastyDemo\DynastyDemo\MLang\bin\Debug\zh-TW\MLang.resources.dll
+C:\Documents and Settings\user\桌面\DrawDemo曲线带\DynastyDemo\DynastyDemo\MLang\obj\Debug\MLang.LangResource.zh-CN.resources
+C:\Documents and Settings\user\桌面\DrawDemo曲线带\DynastyDemo\DynastyDemo\MLang\obj\Debug\MLang.LangResource.zh-TW.resources
+C:\Documents and Settings\user\桌面\DrawDemo曲线带\DynastyDemo\DynastyDemo\MLang\obj\Debug\zh-CN\MLang.resources.dll
+C:\Documents and Settings\user\桌面\DrawDemo曲线带\DynastyDemo\DynastyDemo\MLang\obj\Debug\zh-TW\MLang.resources.dll
+C:\Documents and Settings\user\桌面\DrawDemo曲线带\DynastyDemo\DynastyDemo\MLang\bin\Debug\en-US\MLang.resources.dll
+C:\Documents and Settings\user\桌面\DrawDemo曲线带\DynastyDemo\DynastyDemo\MLang\obj\Debug\MLang.LangResource.en-US.resources
+C:\Documents and Settings\user\桌面\DrawDemo曲线带\DynastyDemo\DynastyDemo\MLang\obj\Debug\en-US\MLang.resources.dll
+C:\Documents and Settings\user\桌面\DrawDemo曲线带\DynastyDemo\DynastyDemo\MLang\bin\Debug\MLang.dll.config
+F:\My Work\特性曲线项目\Guider\MLang\bin\Debug\MLang.dll.config
+F:\My Work\特性曲线项目\Guider\MLang\bin\Debug\MLang.dll
+F:\My Work\特性曲线项目\Guider\MLang\bin\Debug\MLang.pdb
+F:\My Work\特性曲线项目\Guider\MLang\bin\Debug\en-US\MLang.resources.dll
+F:\My Work\特性曲线项目\Guider\MLang\bin\Debug\zh-CN\MLang.resources.dll
+F:\My Work\特性曲线项目\Guider\MLang\bin\Debug\zh-TW\MLang.resources.dll
+F:\My Work\特性曲线项目\Guider\MLang\obj\Debug\ResolveAssemblyReference.cache
+F:\My Work\特性曲线项目\Guider\MLang\obj\Debug\MLang.LangResource.resources
+F:\My Work\特性曲线项目\Guider\MLang\obj\Debug\MLang.LangResource.en-US.resources
+F:\My Work\特性曲线项目\Guider\MLang\obj\Debug\MLang.LangResource.zh-CN.resources
+F:\My Work\特性曲线项目\Guider\MLang\obj\Debug\MLang.LangResource.zh-TW.resources
+F:\My Work\特性曲线项目\Guider\MLang\obj\Debug\GenerateResource.read.1.tlog
+F:\My Work\特性曲线项目\Guider\MLang\obj\Debug\GenerateResource.write.1.tlog
+F:\My Work\特性曲线项目\Guider\MLang\obj\Debug\en-US\MLang.resources.dll
+F:\My Work\特性曲线项目\Guider\MLang\obj\Debug\zh-CN\MLang.resources.dll
+F:\My Work\特性曲线项目\Guider\MLang\obj\Debug\zh-TW\MLang.resources.dll
+F:\My Work\特性曲线项目\Guider\MLang\obj\Debug\MLang.dll
+F:\My Work\特性曲线项目\Guider\MLang\obj\Debug\MLang.pdb
+F:\myWork\CurvesProject\Guider\MLang\bin\Debug\MLang.dll.config
+F:\myWork\CurvesProject\Guider\MLang\bin\Debug\MLang.dll
+F:\myWork\CurvesProject\Guider\MLang\bin\Debug\MLang.pdb
+F:\myWork\CurvesProject\Guider\MLang\bin\Debug\en-US\MLang.resources.dll
+F:\myWork\CurvesProject\Guider\MLang\bin\Debug\zh-CN\MLang.resources.dll
+F:\myWork\CurvesProject\Guider\MLang\bin\Debug\zh-TW\MLang.resources.dll
+F:\myWork\CurvesProject\Guider\MLang\obj\Debug\ResolveAssemblyReference.cache
+F:\myWork\CurvesProject\Guider\MLang\obj\Debug\MLang.LangResource.resources
+F:\myWork\CurvesProject\Guider\MLang\obj\Debug\MLang.LangResource.en-US.resources
+F:\myWork\CurvesProject\Guider\MLang\obj\Debug\MLang.LangResource.zh-CN.resources
+F:\myWork\CurvesProject\Guider\MLang\obj\Debug\MLang.LangResource.zh-TW.resources
+F:\myWork\CurvesProject\Guider\MLang\obj\Debug\GenerateResource.read.1.tlog
+F:\myWork\CurvesProject\Guider\MLang\obj\Debug\GenerateResource.write.1.tlog
+F:\myWork\CurvesProject\Guider\MLang\obj\Debug\en-US\MLang.resources.dll
+F:\myWork\CurvesProject\Guider\MLang\obj\Debug\zh-CN\MLang.resources.dll
+F:\myWork\CurvesProject\Guider\MLang\obj\Debug\zh-TW\MLang.resources.dll
+F:\myWork\CurvesProject\Guider\MLang\obj\Debug\MLang.dll
+F:\myWork\CurvesProject\Guider\MLang\obj\Debug\MLang.pdb
+F:\My Work\特性曲线项目\Guider_2012-12-15\MLang\bin\Debug\MLang.dll.config
+F:\My Work\特性曲线项目\Guider_2012-12-15\MLang\bin\Debug\MLang.dll
+F:\My Work\特性曲线项目\Guider_2012-12-15\MLang\bin\Debug\MLang.pdb
+F:\My Work\特性曲线项目\Guider_2012-12-15\MLang\bin\Debug\en-US\MLang.resources.dll
+F:\My Work\特性曲线项目\Guider_2012-12-15\MLang\bin\Debug\zh-CN\MLang.resources.dll
+F:\My Work\特性曲线项目\Guider_2012-12-15\MLang\bin\Debug\zh-TW\MLang.resources.dll
+F:\My Work\特性曲线项目\Guider_2012-12-15\MLang\obj\Debug\ResolveAssemblyReference.cache
+F:\My Work\特性曲线项目\Guider_2012-12-15\MLang\obj\Debug\MLang.LangResource.resources
+F:\My Work\特性曲线项目\Guider_2012-12-15\MLang\obj\Debug\MLang.LangResource.en-US.resources
+F:\My Work\特性曲线项目\Guider_2012-12-15\MLang\obj\Debug\MLang.LangResource.zh-CN.resources
+F:\My Work\特性曲线项目\Guider_2012-12-15\MLang\obj\Debug\MLang.LangResource.zh-TW.resources
+F:\My Work\特性曲线项目\Guider_2012-12-15\MLang\obj\Debug\GenerateResource.read.1.tlog
+F:\My Work\特性曲线项目\Guider_2012-12-15\MLang\obj\Debug\GenerateResource.write.1.tlog
+F:\My Work\特性曲线项目\Guider_2012-12-15\MLang\obj\Debug\en-US\MLang.resources.dll
+F:\My Work\特性曲线项目\Guider_2012-12-15\MLang\obj\Debug\zh-CN\MLang.resources.dll
+F:\My Work\特性曲线项目\Guider_2012-12-15\MLang\obj\Debug\zh-TW\MLang.resources.dll
+F:\My Work\特性曲线项目\Guider_2012-12-15\MLang\obj\Debug\MLang.dll
+F:\My Work\特性曲线项目\Guider_2012-12-15\MLang\obj\Debug\MLang.pdb
+F:\myWork\CurvesProject\Guider_2012-12-15\MLang\bin\Debug\MLang.dll.config
+F:\myWork\CurvesProject\Guider_2012-12-15\MLang\bin\Debug\MLang.dll
+F:\myWork\CurvesProject\Guider_2012-12-15\MLang\bin\Debug\MLang.pdb
+F:\myWork\CurvesProject\Guider_2012-12-15\MLang\bin\Debug\en-US\MLang.resources.dll
+F:\myWork\CurvesProject\Guider_2012-12-15\MLang\bin\Debug\zh-CN\MLang.resources.dll
+F:\myWork\CurvesProject\Guider_2012-12-15\MLang\bin\Debug\zh-TW\MLang.resources.dll
+F:\myWork\CurvesProject\Guider_2012-12-15\MLang\obj\Debug\ResolveAssemblyReference.cache
+F:\myWork\CurvesProject\Guider_2012-12-15\MLang\obj\Debug\MLang.LangResource.resources
+F:\myWork\CurvesProject\Guider_2012-12-15\MLang\obj\Debug\MLang.LangResource.en-US.resources
+F:\myWork\CurvesProject\Guider_2012-12-15\MLang\obj\Debug\MLang.LangResource.zh-CN.resources
+F:\myWork\CurvesProject\Guider_2012-12-15\MLang\obj\Debug\MLang.LangResource.zh-TW.resources
+F:\myWork\CurvesProject\Guider_2012-12-15\MLang\obj\Debug\GenerateResource.read.1.tlog
+F:\myWork\CurvesProject\Guider_2012-12-15\MLang\obj\Debug\GenerateResource.write.1.tlog
+F:\myWork\CurvesProject\Guider_2012-12-15\MLang\obj\Debug\en-US\MLang.resources.dll
+F:\myWork\CurvesProject\Guider_2012-12-15\MLang\obj\Debug\zh-CN\MLang.resources.dll
+F:\myWork\CurvesProject\Guider_2012-12-15\MLang\obj\Debug\zh-TW\MLang.resources.dll
+F:\myWork\CurvesProject\Guider_2012-12-15\MLang\obj\Debug\MLang.dll
+F:\myWork\CurvesProject\Guider_2012-12-15\MLang\obj\Debug\MLang.pdb
+E:\临时共享\Guider\MLang\bin\Debug\MLang.dll.config
+E:\临时共享\Guider\MLang\bin\Debug\MLang.dll
+E:\临时共享\Guider\MLang\bin\Debug\MLang.pdb
+E:\临时共享\Guider\MLang\bin\Debug\en-US\MLang.resources.dll
+E:\临时共享\Guider\MLang\bin\Debug\zh-CN\MLang.resources.dll
+E:\临时共享\Guider\MLang\bin\Debug\zh-TW\MLang.resources.dll
+E:\临时共享\Guider\MLang\obj\Debug\ResolveAssemblyReference.cache
+E:\临时共享\Guider\MLang\obj\Debug\MLang.LangResource.resources
+E:\临时共享\Guider\MLang\obj\Debug\MLang.LangResource.en-US.resources
+E:\临时共享\Guider\MLang\obj\Debug\MLang.LangResource.zh-CN.resources
+E:\临时共享\Guider\MLang\obj\Debug\MLang.LangResource.zh-TW.resources
+E:\临时共享\Guider\MLang\obj\Debug\GenerateResource.read.1.tlog
+E:\临时共享\Guider\MLang\obj\Debug\GenerateResource.write.1.tlog
+E:\临时共享\Guider\MLang\obj\Debug\en-US\MLang.resources.dll
+E:\临时共享\Guider\MLang\obj\Debug\zh-CN\MLang.resources.dll
+E:\临时共享\Guider\MLang\obj\Debug\zh-TW\MLang.resources.dll
+E:\临时共享\Guider\MLang\obj\Debug\MLang.dll
+E:\临时共享\Guider\MLang\obj\Debug\MLang.pdb
+F:\My Work\特性曲线项目\Guider.Backup\Guider_13-3-2\MLang\bin\Debug\MLang.dll.config
+F:\My Work\特性曲线项目\Guider.Backup\Guider_13-3-2\MLang\bin\Debug\MLang.dll
+F:\My Work\特性曲线项目\Guider.Backup\Guider_13-3-2\MLang\bin\Debug\MLang.pdb
+F:\My Work\特性曲线项目\Guider.Backup\Guider_13-3-2\MLang\bin\Debug\en-US\MLang.resources.dll
+F:\My Work\特性曲线项目\Guider.Backup\Guider_13-3-2\MLang\bin\Debug\zh-CN\MLang.resources.dll
+F:\My Work\特性曲线项目\Guider.Backup\Guider_13-3-2\MLang\bin\Debug\zh-TW\MLang.resources.dll
+F:\My Work\特性曲线项目\Guider.Backup\Guider_13-3-2\MLang\obj\Debug\ResolveAssemblyReference.cache
+F:\My Work\特性曲线项目\Guider.Backup\Guider_13-3-2\MLang\obj\Debug\MLang.LangResource.resources
+F:\My Work\特性曲线项目\Guider.Backup\Guider_13-3-2\MLang\obj\Debug\MLang.LangResource.en-US.resources
+F:\My Work\特性曲线项目\Guider.Backup\Guider_13-3-2\MLang\obj\Debug\MLang.LangResource.zh-CN.resources
+F:\My Work\特性曲线项目\Guider.Backup\Guider_13-3-2\MLang\obj\Debug\MLang.LangResource.zh-TW.resources
+F:\My Work\特性曲线项目\Guider.Backup\Guider_13-3-2\MLang\obj\Debug\GenerateResource.read.1.tlog
+F:\My Work\特性曲线项目\Guider.Backup\Guider_13-3-2\MLang\obj\Debug\GenerateResource.write.1.tlog
+F:\My Work\特性曲线项目\Guider.Backup\Guider_13-3-2\MLang\obj\Debug\en-US\MLang.resources.dll
+F:\My Work\特性曲线项目\Guider.Backup\Guider_13-3-2\MLang\obj\Debug\zh-CN\MLang.resources.dll
+F:\My Work\特性曲线项目\Guider.Backup\Guider_13-3-2\MLang\obj\Debug\zh-TW\MLang.resources.dll
+F:\My Work\特性曲线项目\Guider.Backup\Guider_13-3-2\MLang\obj\Debug\MLang.dll
+F:\My Work\特性曲线项目\Guider.Backup\Guider_13-3-2\MLang\obj\Debug\MLang.pdb
+F:\My Work\蓝牙项目\TripTester\MLang\bin\Debug\MLang.dll.config
+F:\My Work\蓝牙项目\TripTester\MLang\bin\Debug\MLang.dll
+F:\My Work\蓝牙项目\TripTester\MLang\bin\Debug\MLang.pdb
+F:\My Work\蓝牙项目\TripTester\MLang\bin\Debug\en-US\MLang.resources.dll
+F:\My Work\蓝牙项目\TripTester\MLang\bin\Debug\zh-CN\MLang.resources.dll
+F:\My Work\蓝牙项目\TripTester\MLang\bin\Debug\zh-TW\MLang.resources.dll
+F:\My Work\蓝牙项目\TripTester\MLang\obj\Debug\ResolveAssemblyReference.cache
+F:\My Work\蓝牙项目\TripTester\MLang\obj\Debug\MLang.LangResource.resources
+F:\My Work\蓝牙项目\TripTester\MLang\obj\Debug\MLang.LangResource.en-US.resources
+F:\My Work\蓝牙项目\TripTester\MLang\obj\Debug\MLang.LangResource.zh-CN.resources
+F:\My Work\蓝牙项目\TripTester\MLang\obj\Debug\MLang.LangResource.zh-TW.resources
+F:\My Work\蓝牙项目\TripTester\MLang\obj\Debug\GenerateResource.read.1.tlog
+F:\My Work\蓝牙项目\TripTester\MLang\obj\Debug\GenerateResource.write.1.tlog
+F:\My Work\蓝牙项目\TripTester\MLang\obj\Debug\en-US\MLang.resources.dll
+F:\My Work\蓝牙项目\TripTester\MLang\obj\Debug\zh-CN\MLang.resources.dll
+F:\My Work\蓝牙项目\TripTester\MLang\obj\Debug\zh-TW\MLang.resources.dll
+F:\My Work\蓝牙项目\TripTester\MLang\obj\Debug\MLang.dll
+F:\My Work\蓝牙项目\TripTester\MLang\obj\Debug\MLang.pdb
+F:\My Work\蓝牙项目\TripTester\MLang\obj\Debug\GenerateResource-ResGen.read.1.tlog
+F:\My Work\蓝牙项目\TripTester\MLang\obj\Debug\GenerateResource-ResGen.write.1.tlog
+F:\My Work\手持编程器项目\TripTester\MLang\bin\Debug\MLang.dll.config
+F:\My Work\手持编程器项目\TripTester\MLang\bin\Debug\MLang.dll
+F:\My Work\手持编程器项目\TripTester\MLang\bin\Debug\MLang.pdb
+F:\My Work\手持编程器项目\TripTester\MLang\bin\Debug\en-US\MLang.resources.dll
+F:\My Work\手持编程器项目\TripTester\MLang\bin\Debug\zh-CN\MLang.resources.dll
+F:\My Work\手持编程器项目\TripTester\MLang\bin\Debug\zh-TW\MLang.resources.dll
+F:\My Work\手持编程器项目\TripTester\MLang\obj\Debug\ResolveAssemblyReference.cache
+F:\My Work\手持编程器项目\TripTester\MLang\obj\Debug\MLang.LangResource.resources
+F:\My Work\手持编程器项目\TripTester\MLang\obj\Debug\MLang.LangResource.en-US.resources
+F:\My Work\手持编程器项目\TripTester\MLang\obj\Debug\MLang.LangResource.zh-CN.resources
+F:\My Work\手持编程器项目\TripTester\MLang\obj\Debug\MLang.LangResource.zh-TW.resources
+F:\My Work\手持编程器项目\TripTester\MLang\obj\Debug\GenerateResource-ResGen.read.1.tlog
+F:\My Work\手持编程器项目\TripTester\MLang\obj\Debug\GenerateResource.read.1.tlog
+F:\My Work\手持编程器项目\TripTester\MLang\obj\Debug\GenerateResource-ResGen.write.1.tlog
+F:\My Work\手持编程器项目\TripTester\MLang\obj\Debug\GenerateResource.write.1.tlog
+F:\My Work\手持编程器项目\TripTester\MLang\obj\Debug\en-US\MLang.resources.dll
+F:\My Work\手持编程器项目\TripTester\MLang\obj\Debug\zh-CN\MLang.resources.dll
+F:\My Work\手持编程器项目\TripTester\MLang\obj\Debug\zh-TW\MLang.resources.dll
+F:\My Work\手持编程器项目\TripTester\MLang\obj\Debug\MLang.dll
+F:\My Work\手持编程器项目\TripTester\MLang\obj\Debug\MLang.pdb

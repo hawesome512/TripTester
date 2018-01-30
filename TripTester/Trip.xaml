@@ -1,0 +1,83 @@
+﻿<Window x:Class="TripTester.Trip"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:TripTester"
+        Title="Trip" Height="216" Width="290" ResizeMode="NoResize" WindowStyle="None" AllowsTransparency="True" Topmost="True" Background="Transparent">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary  Source="DictionaryCommon.xaml"></ResourceDictionary>
+                <ResourceDictionary>
+                    <Style TargetType="Label">
+                        <Setter Property="FontSize" Value="18"></Setter>
+                        <Setter Property="Height" Value="35"></Setter>
+                        <Setter Property="Width" Value="80"></Setter>
+                        <Setter Property="Foreground" Value="White"></Setter>
+                        <Setter Property="BorderBrush" Value="#DDDDDD"></Setter>
+                        <Setter Property="BorderThickness" Value="0,0,1,1"></Setter>
+                        <Setter Property="HorizontalContentAlignment" Value="Right"></Setter>
+                    </Style>
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+        
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="17" />
+            <ColumnDefinition Width="80*" />
+            <ColumnDefinition Width="190*" />
+            <ColumnDefinition Width="3" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3" />
+            <RowDefinition Height="35*" />
+            <RowDefinition Height="35*" />
+            <RowDefinition Height="35*" />
+            <RowDefinition Height="35*" />
+            <RowDefinition Height="35*" />
+            <RowDefinition Height="35*" />
+            <RowDefinition Height="3" />
+        </Grid.RowDefinitions>
+        <Grid Name="grid_bg" Grid.Column="1" Grid.RowSpan="8" Grid.ColumnSpan="3"/>
+        <Label Visibility="Hidden" />
+        <Label Content="Time " Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left"  Name="label1" VerticalAlignment="Top" FontSize="18" Height="35"/>
+        <Label Content="Type " HorizontalAlignment="Left" Name="label2" VerticalAlignment="Top" Grid.Column="1" Grid.Row="2" />
+        <Label Content="Iset(A) " HorizontalAlignment="Left" Name="label3" VerticalAlignment="Top" Grid.Column="1" Grid.Row="3" />
+        <Label Content="Tset(s) " HorizontalAlignment="Left"  Name="label4" VerticalAlignment="Top" Grid.Column="1" Grid.Row="4" />
+        <Label Content="I(A) "  HorizontalAlignment="Left"  Name="label5" VerticalAlignment="Top" Grid.Column="1" Grid.Row="5" />
+        <Label Content="T(s) " HorizontalAlignment="Left" Name="label6" VerticalAlignment="Top" Grid.Column="1" Grid.Row="6" />
+        <Label Grid.Column="2" Grid.Row="1" Grid.RowSpan="2" HorizontalAlignment="Left" Name="labelTime" VerticalAlignment="Top"  Width="190" HorizontalContentAlignment="Left">
+            <Label.Content>
+                <Binding Path="LastTime"></Binding>
+            </Label.Content>
+        </Label>
+        <Label Grid.Column="2" Grid.Row="2" HorizontalAlignment="Left" Name="labelType" VerticalAlignment="Top"  Width="190" HorizontalContentAlignment="Left">
+            <Label.Content>
+                <Binding Path="Type"></Binding>
+            </Label.Content>
+        </Label>
+        <Label Grid.Column="2" Grid.Row="3" HorizontalAlignment="Left"  Name="labelIr" VerticalAlignment="Top"  Width="190" HorizontalContentAlignment="Left">
+            <Label.Content>
+                <Binding Path="Iset"></Binding>
+            </Label.Content>
+        </Label>
+        <Label Grid.Column="2" Grid.Row="4" HorizontalAlignment="Left"  Name="labelTr" VerticalAlignment="Top"   Width="190" HorizontalContentAlignment="Left">
+            <Label.Content>
+                <Binding Path="Tset"></Binding>
+            </Label.Content>
+        </Label>
+        <Label Grid.Column="2" Grid.Row="5" HorizontalAlignment="Left"  Name="labelI" VerticalAlignment="Top"   Width="190" HorizontalContentAlignment="Left">
+            <Label.Content>
+                <Binding Path="I"></Binding>
+            </Label.Content>
+        </Label>
+        <Label Grid.Column="2" Grid.Row="6" HorizontalAlignment="Left" Name="labelT" VerticalAlignment="Top"   Width="190" HorizontalContentAlignment="Left">
+            <Label.Content>
+                <Binding Path="T"></Binding>
+            </Label.Content>
+        </Label>
+        <Border Name="border" Grid.ColumnSpan="3" Grid.Column="1" Grid.RowSpan="8" BorderThickness="5" BorderBrush="#FF6501"/>
+        <Image Name="side" Grid.RowSpan="8" Width="17" Height="216" Source="Images/side.png"/>
+    </Grid>
+</Window>

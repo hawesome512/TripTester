@@ -1,0 +1,12 @@
+F:\My Work\蓝牙项目\TripTester\TestCom\bin\Debug\TestCom.exe
+F:\My Work\蓝牙项目\TripTester\TestCom\bin\Debug\TestCom.pdb
+F:\My Work\蓝牙项目\TripTester\TestCom\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\My Work\蓝牙项目\TripTester\TestCom\obj\x86\Debug\TestCom.exe
+F:\My Work\蓝牙项目\TripTester\TestCom\obj\x86\Debug\TestCom.pdb
+F:\My Work\蓝牙项目\TripTester\TestCom\bin\Debug\TestCom.exe.config
+F:\My Work\手持编程器项目\TripTester\TestCom\bin\Debug\TestCom.exe.config
+F:\My Work\手持编程器项目\TripTester\TestCom\bin\Debug\TestCom.exe
+F:\My Work\手持编程器项目\TripTester\TestCom\bin\Debug\TestCom.pdb
+F:\My Work\手持编程器项目\TripTester\TestCom\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\My Work\手持编程器项目\TripTester\TestCom\obj\x86\Debug\TestCom.exe
+F:\My Work\手持编程器项目\TripTester\TestCom\obj\x86\Debug\TestCom.pdb

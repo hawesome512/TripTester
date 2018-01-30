@@ -1,0 +1,95 @@
+﻿<Window x:Class="TripTester.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:TripTester"
+        Title="TripTester" Height="700" Width="1000" Background="AliceBlue" WindowStartupLocation="CenterScreen" WindowStyle="None"  MouseLeftButtonDown="Window_MouseLeftButtonDown_1" FontSize="18" ResizeMode="NoResize" FontFamily="Microsoft JhengHei" Closed="Window_Closed_1" SizeChanged="Window_SizeChanged_1">
+    <Window.Resources>
+
+        <ResourceDictionary Source="DictionaryCommon.xaml"></ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="60" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="1" Background="#2A7187">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <RadioButton Name="rb_trip" Checked="checkChanged">Trip</RadioButton>
+                <RadioButton Name="rb_test" Checked="checkChanged">Test</RadioButton>
+            </StackPanel>
+        </Grid>
+        <Border BorderBrush="#888888" BorderThickness="3" Grid.RowSpan="4"></Border>
+        <Grid Grid.Row="0">
+            <Grid.Background>
+                <ImageBrush ImageSource="/TripTester;component/Images/title.png"/>
+            </Grid.Background>
+            <Label Content="Shihlin ACB TripTester" Foreground="White" Height="35" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="18" FontWeight="Bold"/>
+            <StackPanel x:Name="Title" Orientation="Horizontal" FlowDirection="RightToLeft" Margin="7,4">
+                <local:ImageButton x:Name="btn_close" Width="26" Height="26" VerticalAlignment="Top"  ImgPath="/Images/关闭.png" Template="{StaticResource ImageButtonTemplate}" Click="btn_close_Click_1"/>
+                <local:ImageButton x:Name="btn_size" Width="26" Height="26" VerticalAlignment="Top"  ImgPath="/Images/最大化.png" Template="{DynamicResource ImageButtonTemplate}" Click="btn_size_Click_1"/>
+                <local:ImageButton x:Name="btn_min" Width="26" Height="26" VerticalAlignment="Top"  ImgPath="/Images/最小化.png" Template="{StaticResource ImageButtonTemplate}" Click="btn_min_Click_1"/>
+            </StackPanel>
+        </Grid>
+        <DataGrid AutoGenerateColumns="False" Grid.Row="2"  Margin="3,0" Name="dataGridDisplay" Background="Transparent" IsReadOnly="True"
+                  MouseDoubleClick="dataGridDisplay_MouseDoubleClick" BorderBrush="Transparent" CanUserAddRows="True" ItemsSource="{Binding}" SelectionUnit="FullRow">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="No." Binding="{Binding RelativeSource={RelativeSource AncestorType=DataGridRow}, Converter={local:RowToIndexConverter}}" />
+                <DataGridTextColumn Header="Result" Binding="{Binding Results, Mode= OneWay, UpdateSourceTrigger=PropertyChanged}"></DataGridTextColumn>
+                <DataGridTextColumn Width="1*" Header="Model" Binding="{Binding DeviceCode, Mode= OneWay, UpdateSourceTrigger=PropertyChanged}"></DataGridTextColumn>
+                <DataGridTextColumn Width="1*" Header="ETR" Binding="{Binding BreakType, Mode= OneWay, UpdateSourceTrigger=PropertyChanged}"></DataGridTextColumn>
+                <DataGridTextColumn Width="1*" Header="ID" Binding="{Binding ProductNumber, Mode= OneWay, UpdateSourceTrigger=PropertyChanged}"></DataGridTextColumn>
+                <!--<DataGridTextColumn Header="Inm" Binding="{Binding Inm, Mode= OneWay, UpdateSourceTrigger=PropertyChanged}"></DataGridTextColumn>-->
+                <DataGridTextColumn Width="1*" Header="In(A)" Binding="{Binding In, Mode= OneWay, UpdateSourceTrigger=PropertyChanged}"></DataGridTextColumn>
+                <DataGridTextColumn Width="1*" Header="Fn(Hz)" Binding="{Binding Fn, Mode= OneWay, UpdateSourceTrigger=PropertyChanged}"></DataGridTextColumn>
+                <!--<DataGridTextColumn Header="Imcr" Binding="{Binding Imcr, Mode= OneWay, UpdateSourceTrigger=PropertyChanged}"></DataGridTextColumn>-->
+                <!--<DataGridTextColumn Header="Fn" Binding="{Binding Fn, Mode= OneWay, UpdateSourceTrigger=PropertyChanged}"></DataGridTextColumn>-->
+                <DataGridTextColumn Width="2*" Header="Update Time" Binding="{Binding SaveTime, Mode= OneWay, UpdateSourceTrigger=PropertyChanged,Converter={StaticResource tConvert}}"></DataGridTextColumn>
+                <!--<DataGridTextColumn Header="Ver." Binding="{Binding Version, Mode= OneWay, UpdateSourceTrigger=PropertyChanged}"></DataGridTextColumn>-->
+                <DataGridTemplateColumn Width="60" Header="Delete">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image  Source="Images/delete.png" Width="20" Height="20" Tag="{Binding ProductNumber}" MouseLeftButtonDown="deleteRecord"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+            <DataGrid.RowStyle>
+                <Style TargetType="DataGridRow">
+                    <Setter Property="Background" Value="Transparent" />
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Results,Mode=OneWay}" Value="NG">
+                            <Setter Property="Background" Value="#FF5656"/>
+                        </DataTrigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <!--当鼠标经过时 改变颜色-->
+                            <Setter Property="Background" Value="#2A7187"/>
+                            <Setter Property="Foreground" Value="White"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </DataGrid.RowStyle>
+        </DataGrid>
+        <Label  HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Grid.Row="3"  Name="label1" Foreground="#FF4B4A4A" FontWeight="Bold">
+            <Label.Style>
+                <Style TargetType="Label">
+                    <Setter Property="Content" Value="Copyright ©2018 Shihlin Electirc"/>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding IsMouseOver,ElementName=btn_import}" Value="True">
+                            <Setter Property="Content" Value="Import records from ACB-TESTER"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding IsMouseOver,ElementName=btn_excel}" Value="True">
+                            <Setter Property="Content" Value="Save as excel"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Label.Style>
+        </Label>
+        <local:ImageButton Grid.Row="3" Margin="5" HorizontalAlignment="Left" x:Name="btn_import" Width="48" Height="48" ImgPath="/Images/bluetooth.png" Template="{StaticResource ImageButtonTemplate}" Click="btn_import_Click_1"/>
+        <local:ImageButton Grid.Row="3" Margin="5" HorizontalAlignment="Right" x:Name="btn_excel" Width="48" Height="48" ImgPath="/Images/excel.png" Template="{StaticResource ImageButtonTemplate}" Click="btn_excel_Click_1"/>
+        <local:TestDetail Grid.Row="1" Grid.RowSpan="3" Visibility="Hidden" x:Name="testDetail"/>
+        <local:TripDetail Grid.Row="1" Grid.RowSpan="3" Visibility="Hidden" x:Name="tripDetail"/>
+        <local:ComPage Grid.Row="1" Grid.RowSpan="3" Visibility="Hidden" x:Name="comPage"/>
+    </Grid>
+</Window>

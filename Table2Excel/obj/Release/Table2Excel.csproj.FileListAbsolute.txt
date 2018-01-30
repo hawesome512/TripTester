@@ -1,0 +1,10 @@
+F:\My Work\蓝牙项目\TripTester\Table2Excel\bin\Release\Table2Excel.dll
+F:\My Work\蓝牙项目\TripTester\Table2Excel\bin\Release\Table2Excel.pdb
+F:\My Work\蓝牙项目\TripTester\Table2Excel\obj\Release\ResolveAssemblyReference.cache
+F:\My Work\蓝牙项目\TripTester\Table2Excel\obj\Release\Table2Excel.dll
+F:\My Work\蓝牙项目\TripTester\Table2Excel\obj\Release\Table2Excel.pdb
+E:\My Work\手持编程器项目\TripTester\Table2Excel\bin\Release\Table2Excel.dll
+E:\My Work\手持编程器项目\TripTester\Table2Excel\bin\Release\Table2Excel.pdb
+E:\My Work\手持编程器项目\TripTester\Table2Excel\obj\Release\Table2Excel.csprojResolveAssemblyReference.cache
+E:\My Work\手持编程器项目\TripTester\Table2Excel\obj\Release\Table2Excel.dll
+E:\My Work\手持编程器项目\TripTester\Table2Excel\obj\Release\Table2Excel.pdb

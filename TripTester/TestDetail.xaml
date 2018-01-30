@@ -1,0 +1,113 @@
+﻿<UserControl x:Class="TripTester.TestDetail"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:TripTester"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" BorderBrush="#FF888888" Background="AliceBlue" BorderThickness="3" Height="665" Width="1000">
+    <UserControl.Resources>
+        <!--<local:ResultConverter x:Key="rConvert"></local:ResultConverter>-->
+        <ResourceDictionary Source="DictionaryCommon.xaml">
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <Grid Name="gridContent">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50" />
+                <RowDefinition Height="250" />
+                <RowDefinition Height="30" />
+                <RowDefinition Height="285" />
+                <RowDefinition Height="50" />
+            </Grid.RowDefinitions>
+            <Label Content="Test Information" Grid.Column="1" Name="label_Title" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="24" FontWeight="Bold" />
+            <GroupBox Grid.Row="1" Header="ACB" Height="240" Margin="0,5,0,0" Name="groupBox1" VerticalAlignment="Top" Width="370" FontSize="20" BorderBrush="Gray">
+                <Grid>
+                    <StackPanel Height="65" HorizontalAlignment="Left" Margin="5,5,0,0" Name="stackPanel1" VerticalAlignment="Top" Width="350" Orientation="Horizontal" >
+                        <Label FontSize="16" Content="Model: " Height="32" Name="label1" Width="80" HorizontalContentAlignment="Right" Background="#FFA1E6D0"/>
+                        <Label FontSize="16"  Height="32" Name="labelType" Width="100" BorderBrush="#FF532A2A" BorderThickness="0,0,0,1" >
+                            <Label.Content>
+                                <Binding Path="DeviceCode"></Binding>
+                            </Label.Content>
+                        </Label>
+                        <Label FontSize="16" Content="ID: " Height="32" Name="label2"  Width="80" HorizontalContentAlignment="Right" Background="#FFA1E6D0"/>
+                        <Label FontSize="16" Height="32" Name="labelID" Width="100"  BorderBrush="#FF532A2A" BorderThickness="0,0,0,1" >
+                            <Label.Content>
+                                <Binding Path="ProductNumber"></Binding>
+                            </Label.Content>
+                        </Label>
+                    </StackPanel>
+                    <StackPanel Height="65" HorizontalAlignment="Left" Margin="5,70,0,0" Name="stackPanel3" VerticalAlignment="Top" Width="350" Orientation="Horizontal" >
+                        <Label FontSize="16" Content="ETR: " Height="32"  Width="80" HorizontalContentAlignment="Right" Background="#FFA1E6D0" />
+                        <Label FontSize="16"  Height="32" Name="labelBreakerType" Width="100"  BorderBrush="#FF532A2A" BorderThickness="0,0,0,1" >
+                            <Label.Content>
+                                <Binding Path="BreakType"></Binding>
+                            </Label.Content>
+                        </Label>
+                        <Label FontSize="16" Content="In(A): " Height="32" Width="80" HorizontalContentAlignment="Right"  Background="#FFA1E6D0"/>
+                        <Label FontSize="16" Height="32" Name="labelIn" Width="100"  BorderBrush="#FF532A2A" BorderThickness="0,0,0,1" >
+                            <Label.Content>
+                                <Binding Path="In"></Binding>
+                            </Label.Content>
+                        </Label>
+                    </StackPanel>
+                    <StackPanel Height="65" HorizontalAlignment="Left" Margin="5,135,0,0" Name="stackPanel31" VerticalAlignment="Top" Width="350" Orientation="Horizontal" >
+                        <Label FontSize="16" Content="Imcr(A): " Height="32"  Width="80" HorizontalContentAlignment="Right"  Background="#FFA1E6D0"/>
+                        <Label FontSize="16"  Height="32" Name="labelImcr" Width="100"  BorderBrush="#FF532A2A" BorderThickness="0,0,0,1" >
+                            <Label.Content>
+                                <Binding Path="Imcr"></Binding>
+                            </Label.Content>
+                        </Label>
+                        <Label FontSize="16" Content="Pole: " Height="32"  Width="80" HorizontalContentAlignment="Right"  Background="#FFA1E6D0"/>
+                        <Label FontSize="16" Height="32" Name="labelFn" Width="100"  BorderBrush="#FF532A2A" BorderThickness="0,0,0,1" Content="{Binding BreakType,Converter={StaticResource pConvert}}"/>
+                    </StackPanel>
+                    <!--<StackPanel Height="35" HorizontalAlignment="Left" Margin="5,85,0,0" Name="stackPanel2" VerticalAlignment="Top" Width="350" Orientation="Horizontal">
+                        <Label FontSize="16" Content="Manufacturer:" Height="32" Name="label4" />
+                        <Label FontSize="16" Height="32" Name="labelManu" Width="235" Content="Shihlin Electric" BorderBrush="#FF532A2A" BorderThickness="0,0,0,1" />
+                    </StackPanel>-->
+                    <!--<StackPanel Height="35" HorizontalAlignment="Left" Margin="5,45,0,0" Name="stackPanel3" VerticalAlignment="Top" Width="350" Orientation="Horizontal">
+                    <Label FontSize="16" Content="Time:" Height="32" Name="label3" Width="50" />
+                    <Label FontSize="16" Height="32" Name="labelTime" Width="298" >
+                        <Label.Content> 
+                            <Binding Path="ProductDate" Converter="{StaticResource tConvert}"></Binding>
+                        </Label.Content>
+                    </Label>
+                </StackPanel>-->
+                </Grid>
+            </GroupBox>
+            <GroupBox Grid.Row="3" Header="Test" Height="270" Margin="0,5,0,0" Name="groupBoxDetail" VerticalAlignment="Top" Width="370" FontSize="20" Background="#FFA1E6D0">
+                <Grid>
+                    <WrapPanel Height="200" HorizontalAlignment="Left" Name="wrapPanel_details" VerticalAlignment="Top" Width="300" Margin="30,5,0,0" >
+                        <Label  Width="60" Name="label_null" Height="40" HorizontalAlignment="Left" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" ></Label>
+                        <Label  Height="40" HorizontalContentAlignment="Center" Name="label7" VerticalContentAlignment="Center" Width="60" Content="L"  />
+                        <Label  Height="40" HorizontalContentAlignment="Center" Name="label8" VerticalContentAlignment="Center" Width="60" Content="S" />
+                        <Label  Height="40" HorizontalContentAlignment="Center" Name="label9" VerticalContentAlignment="Center" Width="60" Content="I" />
+                        <Label  Height="40" HorizontalContentAlignment="Center" Name="label10" VerticalContentAlignment="Center" Width="60" Content="" />
+                        <Label  Height="40" HorizontalContentAlignment="Center" Name="label11" VerticalContentAlignment="Center" Width="60" Content="A" />
+                        <Label  Height="40" HorizontalContentAlignment="Center" Name="labelAL" VerticalContentAlignment="Center" Width="60" Style="{DynamicResource ItemLable}">
+                        </Label>
+                        <Label  Height="40" HorizontalContentAlignment="Center" Name="labelAS" VerticalContentAlignment="Center" Width="60"  Style="{DynamicResource ItemLable}" />
+                        <Label  Height="40" HorizontalContentAlignment="Center" Name="labelAI" VerticalContentAlignment="Center" Width="60"  Style="{DynamicResource ItemLable}" />
+                        <Label  Height="40" HorizontalContentAlignment="Center" Name="label101" VerticalContentAlignment="Center" Width="60" Content="G" />
+                        <Label  Height="40" HorizontalContentAlignment="Center" Name="label16" VerticalContentAlignment="Center" Width="60" Content="B" />
+                        <Label  Height="40" HorizontalContentAlignment="Center" Name="labelBL" VerticalContentAlignment="Center" Width="60"  Style="{DynamicResource ItemLable}" />
+                        <Label  Height="40" HorizontalContentAlignment="Center" Name="labelBS" VerticalContentAlignment="Center" Width="60"  Style="{DynamicResource ItemLable}" />
+                        <Label  Height="40" HorizontalContentAlignment="Center" Name="labelBI" VerticalContentAlignment="Center" Width="60"  Style="{DynamicResource ItemLable}" />
+                        <Label  Height="40" HorizontalContentAlignment="Center" Name="labelAG" VerticalContentAlignment="Center" Width="60"  Style="{DynamicResource ItemLable}" />
+                        <Label  Height="40" HorizontalContentAlignment="Center" Name="label21" VerticalContentAlignment="Center" Width="60" Content="C" />
+                        <Label  Height="40" HorizontalContentAlignment="Center" Name="labelCL" VerticalContentAlignment="Center" Width="60"  Style="{DynamicResource ItemLable}"/>
+                        <Label  Height="40" HorizontalContentAlignment="Center" Name="labelCS" VerticalContentAlignment="Center" Width="60"  Style="{DynamicResource ItemLable}"/>
+                        <Label  Height="40" HorizontalContentAlignment="Center" Name="labelCI" VerticalContentAlignment="Center" Width="60"  Style="{DynamicResource ItemLable}"/>
+                        <Label  Height="40" HorizontalContentAlignment="Center" Name="labelCG" VerticalContentAlignment="Center" Width="60" Content="MCR"/>
+                        <Label  Height="40" HorizontalContentAlignment="Center" Name="label26" VerticalContentAlignment="Center" Width="60" Content="N" />
+                        <Label  Height="40" HorizontalContentAlignment="Center" Name="labelNL" VerticalContentAlignment="Center" Width="60"   Style="{DynamicResource ItemLable}"/>
+                        <Label  Height="40" HorizontalContentAlignment="Center" Name="labelNS" VerticalContentAlignment="Center" Width="60"   Style="{DynamicResource ItemLable}"/>
+                        <Label  Height="40" HorizontalContentAlignment="Center" Name="labelNI" VerticalContentAlignment="Center" Width="60"   Style="{DynamicResource ItemLable}"/>
+                        <Label  Height="40" HorizontalContentAlignment="Center" Name="labelMIC" VerticalContentAlignment="Center" Width="60" Style="{DynamicResource ItemLable}"/>
+                    </WrapPanel>
+                </Grid>
+            </GroupBox>
+        </Grid>
+        <local:ImageButton Margin="1" HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="btn_back" Width="48" Height="48" ImgPath="/Images/back.png" Template="{StaticResource ImageButtonTemplate}" Click="button_Close_Click" />
+        <local:ImageButton Margin="1" HorizontalAlignment="Right" VerticalAlignment="Top" x:Name="btn_print" Width="48" Height="48" ImgPath="/Images/print.png" Template="{StaticResource ImageButtonTemplate}" Click="btn_print_Click_1" />
+    </Grid>
+</UserControl>
